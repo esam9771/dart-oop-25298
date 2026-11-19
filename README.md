@@ -1,8 +1,9 @@
 # Dart OOP Assignment: Kigali Bus Card
-**Name:**
-**Student ID:**
+**Name:** ISAMELDIN MOHAMED OSMAN ELYAS
+**Student ID:** 25298/2024
 
-## My numbers- D = L =
+## My numbers
+- D =     L =
 - Starting balance =
 - Bus fare =
 - Student discount =
