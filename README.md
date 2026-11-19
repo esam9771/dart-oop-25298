@@ -43,8 +43,13 @@ The `~/` operator performs integer division (truncating division). It divides tw
 | **Not a bug** | `Phone p = new Phone ('Tecno', 50);` | Why is this line fine? Using the `new` keyword when creating an object is optional in Dart, not an error—it still works normally. | (none) |
 
 ## Part 5
-**My prediction:** 
+**My prediction:**
 -5
--2 
+-2
+
 **Real output:**
+    1
+    5
+
 **Was I right?**
+No, my prediction was incorrect. For `Bag a`, `a.add()` sets `_items` to `1`, and `a.items = -5` is ignored because the setter only allows values `>= 0`, so it prints `1`. For `BigBag b`, calling `b.add()` twice calls `super.add()` four times (`_items` becomes `4`), and `b.items = b.items + 1` makes it `5`.
