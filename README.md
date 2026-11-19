@@ -43,6 +43,8 @@ The `~/` operator performs integer division (truncating division). It divides tw
 | **Not a bug** | `Phone p = new Phone ('Tecno', 50);` | Why is this line fine? Using the `new` keyword when creating an object is optional in Dart, not an error—it still works normally. | (none) |
 
 ## Part 5
-**My prediction:**
+**My prediction:** 
+-5
+-2 
 **Real output:**
 **Was I right?**
